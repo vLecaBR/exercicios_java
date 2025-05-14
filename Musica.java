@@ -29,7 +29,7 @@ public class Musica {
     // Solicita ao usuário uma nova avaliação e atualiza a média
     // A média é calculada somando a avaliação atual multiplicada pelo número de avaliações
     // e a nova avaliação, dividindo pelo número total de avaliações
-    
+    // A média é atualizada e o número de avaliações é incrementado
     void avaliarMusica() {
         System.out.print("Digite a avaliação (0 a 10): ");
         double novaAvaliacao = scanner.nextDouble();
