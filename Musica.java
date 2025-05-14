@@ -37,6 +37,10 @@ public class Musica {
             System.out.println("Avaliação inválida. Deve ser entre 0 e 10.");
             return;
         }
+
+        // Se a avaliação for válida, atualiza a média
+        // A média é calculada somando a avaliação atual multiplicada pelo número de avaliações
+        // e a nova avaliação, dividindo pelo número total de avaliações
         avaliacao = ((avaliacao * numeroAvaliacoes) + novaAvaliacao) / (numeroAvaliacoes + 1);
         numeroAvaliacoes++;
     }
