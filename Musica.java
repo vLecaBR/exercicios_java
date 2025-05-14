@@ -4,14 +4,19 @@ import java.util.Scanner;
 
 
 public class Musica {
+
     Scanner scanner = new Scanner(System.in);
 
+    // Atributos
     String titulo;
     String artista;
     int anoLancamento;
     Double avaliacao;
     int numeroAvaliacoes;
 
+    // Método construtor
+    // O construtor exibe os atributos da música
+    // Atributos: titulo, artista, anoLancamento, avaliacao e numeroAvaliacoes
     void exibirDetalhes(){
         System.out.println("Título: " + titulo);
         System.out.println("Artista: " + artista);
@@ -20,6 +25,11 @@ public class Musica {
         System.out.println("Número de Avaliações: " + numeroAvaliacoes);
     }
 
+    // Método para avaliar a música
+    // Solicita ao usuário uma nova avaliação e atualiza a média
+    // A média é calculada somando a avaliação atual multiplicada pelo número de avaliações
+    // e a nova avaliação, dividindo pelo número total de avaliações
+    
     void avaliarMusica() {
         System.out.print("Digite a avaliação (0 a 10): ");
         double novaAvaliacao = scanner.nextDouble();
