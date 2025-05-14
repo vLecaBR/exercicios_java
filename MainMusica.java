@@ -3,7 +3,7 @@ public class MainMusica {
 
         // Cria um objeto da classe Musica
         Musica musica1 = new Musica();
-
+        
         // Atribui valores aos atributos do objeto musica1
         // Atributos: titulo, artista, anoLancamento, avaliacao e numeroAvaliacoes
         musica1.titulo = "Lean na fanta";
