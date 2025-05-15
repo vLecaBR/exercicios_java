@@ -8,6 +8,7 @@ public class Musica {
     Scanner scanner = new Scanner(System.in);
 
     // Atributos
+    // Atributos: titulo, artista, anoLancamento, avaliacao e numeroAvaliacoes
     String titulo;
     String artista;
     int anoLancamento;
