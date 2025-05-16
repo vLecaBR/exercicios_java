@@ -1,7 +1,5 @@
-
 // Nome do arquivo: Aluno.java
 import java.util.Scanner;
-
 // Classe Aluno
 // Atributos: nome e idade
 public class Aluno {
