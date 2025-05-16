@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Calculadora {
-
     // Método que recebe um número como parâmetro e retorna o dobro
     public static double dobro(double numero) {
         return numero * 2;
