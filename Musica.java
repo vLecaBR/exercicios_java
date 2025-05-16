@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 
 public class Musica {
-
     Scanner scanner = new Scanner(System.in);
 
     // Atributos
