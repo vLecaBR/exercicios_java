@@ -1,6 +1,5 @@
 public class MainCarro {
         public static void main(String[] args) {
-
         // Cria um objeto da classe Carro
         Carro carro1 = new Carro();
 
